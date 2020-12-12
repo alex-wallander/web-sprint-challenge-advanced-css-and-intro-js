@@ -162,23 +162,23 @@ button:hover{
         border-width: 2px;
     }
     .artists-container{
-        flex-flow: column wrap;
+        width: 100%;
+        flex-flow: row wrap;
         justify-content: center;
-        align-items: center;
     }
     .artist{
-
+        width:100%;
     }
     .artist a{
-
+        font-size: 1.6rem;
     }
     .artist img{
-
+        height: 23vh;
+        width:45%
     }
-    .bio{
-
-    }
-    img{
-
+    .artists-container .bio{
+        width: 58%;
+        margin-left: 21%;
+        font-size: 1rem;
     }
 }
